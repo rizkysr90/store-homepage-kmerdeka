@@ -1,0 +1,44 @@
+.cover-img-container {
+    width: 100%;
+    position: relative;
+    background-color: white;
+}
+.cover-img-container img {
+    max-width: 100%;
+}
+.cover-motto-container {
+    line-height: 1.8;
+    position: absolute;
+    color: white;
+    display: flex;
+    padding: 0 3rem;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .3);
+    height: 98%;
+}
+.cover-motto-container h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    border-bottom: 2px solid #EE4D2D;
+}
+.category-container {
+    width: 100%;
+    background-color: white;
+    padding: 2rem 0;
+
+}
+.category-container-centre {
+    width: 95%;
+    margin: 0 auto;
+}
+.category-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category-btn {
+    cursor: pointer;
+    color: #EE4D2D;
+    text-decoration: underline;
+}

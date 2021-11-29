@@ -1,0 +1,33 @@
+.slider-container {
+    width: 100%;
+    height: 100vh;
+}
+.slider-img-container img {
+    max-width: 80%;
+    border-radius: 100%;
+
+}
+.slider-container-centre {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+}
+
+
+.slider-content-container {
+    display: flex;
+    cursor: pointer;
+    margin: 0 1rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+}
+.slider-img-container {
+    display: flex;
+    justify-content: center;
+}
+.slider-title {
+    
+    margin-top: 1rem;
+}
