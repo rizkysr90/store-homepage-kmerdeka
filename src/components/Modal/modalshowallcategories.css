@@ -1,0 +1,44 @@
+.modal-show-all-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    /* height: 50%; */
+}
+.modal-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: #EE4D2D;
+    
+}
+.modal-info-container h4 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+.modal-show-all-close {
+    display: inline-block;
+    font-weight: 700;
+    padding: 1.4rem 2rem;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #EE4D2D;
+    
+}
+.modal-show-all-centre {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: red; */
+}
+.modal-show-all-content-container {
+    cursor: pointer;
+    flex: 0 0 40%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+}
