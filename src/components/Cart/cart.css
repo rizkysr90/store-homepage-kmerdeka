@@ -21,14 +21,15 @@
     display: flex;
     flex-wrap: wrap;
   /* background-color: red; */
-    padding: 2rem 0 2rem 2rem;
-    /* justify-content: space-evenly; */
+    padding: 2rem 0;
+    
+    justify-content: space-evenly;
    
 }
 .cart-container {
     cursor: pointer;
     margin: 1rem;
-    flex: 0 0 40%;
+    flex: 0 0 35%;
     display: flex;
     flex-direction: column;
     border-radius: 10px;

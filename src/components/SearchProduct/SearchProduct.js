@@ -33,7 +33,7 @@ const SearchProduct = () => {
     });
     return (
         <>
-            {loadingProduct ? "" : errorProduct ? "" :
+            {loadingProduct ? <p className = "loading-effect">Memuat data</p> : errorProduct ? "" :
             <div className = "product-container">
               <div className = "product-container-centre">
                   <p className = "result-search-query">Hasil pencarian : <span className = "result-search-content">{`' ${params.name} '`}</span></p>

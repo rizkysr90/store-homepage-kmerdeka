@@ -18,7 +18,7 @@ const ModalShowAllCategories = (props) => {
                 </div>
                 <div className = "modal-show-all-centre">
                     
-                    {props.statusLoading ?"" : props.statusError ? "" :
+                    {props.statusLoading ?"" : props.statusError ? <p>Oops...Something went wrong</p> :
                         props.data.categories.map((data) => {
                             return (
                                 <div className = "modal-show-all-content-container" key = {data.id} onClick = {() => handleClick(data.id)} >

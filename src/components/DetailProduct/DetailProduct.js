@@ -6,6 +6,7 @@ import {
     gql
   } from "@apollo/client";
 import Details from '../Details/Details';
+import HowToOrder from '../HowToOrder/HowToOrder';
 
 
 const GET_PRODUCT = gql`
@@ -36,13 +37,15 @@ const DetailProduct = () => {
     return(
         <>
         {
-            loadingProduct ? "" : errorProduct ? "" : 
+            loadingProduct ? <p className = "loading-effect">Memuat data</p> : errorProduct ? <p>Oops,Something went wrong</p> : dataProduct.products.length === 0 ?  <p className = "loading-effect">Data tidak ditemukan</p>:
             <div className = "details-product-container">
                 <div className = "details-product-centre">
                     <Details 
                         data = {dataProduct.products[0]}
                     />
+                    <HowToOrder/>
                 </div>
+                
             </div>
         }
         </>

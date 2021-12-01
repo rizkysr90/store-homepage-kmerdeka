@@ -40,8 +40,7 @@ const ProductCategories = () => {
     });
     return(
         <>
-            {loadingProduct ? "" : errorProduct ? "" :
-           
+            {loadingProduct ? <p className = "loading-effect">Memuat data</p> : errorProduct ? <p>Oops...Something went wrong</p> : dataProduct.categories_aggregate.nodes.length === 0 ? <p className = "loading-effect">Data tidak ditemukan</p> :
             <div className = "product-container">
               <div className = "product-container-centre">
                   <p className = "product-category-route">{`Kategori : ${dataProduct.categories_aggregate.nodes[0].title}`}</p>

@@ -25,7 +25,7 @@ const Product = () => {
     const {loading : loadingProduct, error: errorProduct, data:dataProduct} = useQuery(GET_PRODUCT);
     return(
         <>
-          {loadingProduct ? "" : errorProduct ? "" :
+          {loadingProduct ? <p className = "loading-effect">Memuat data</p> : errorProduct ? <p>Oops...Something went wrong</p>:
             <div className = "product-container">
               <div className = "product-container-centre">
                   {/* <p className = "product-topic">Semua Produk</p> */}

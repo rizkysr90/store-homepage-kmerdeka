@@ -1,0 +1,37 @@
+.order-container {
+    margin: 2rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+}
+.order-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.order-option-container {
+    list-style-type: none;
+    padding: 0;
+}
+.order-option-container a {
+
+    color: white;
+    display: inline-block;
+    margin: 1rem 0;
+    padding: 1rem;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+.order-option-container {
+    display: flex;
+    /* justify-content: flex-start; */
+}
+.order-shopee {
+    background-color:#EE4D2D;
+}
+.order-wa {
+    background-color: #24CC63;
+}
+.order-ots {
+    background-color: #26914e;
+}

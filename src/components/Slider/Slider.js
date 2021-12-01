@@ -14,7 +14,7 @@ const Slider = (props) => {
             <div className = "slider-container">
                 <div className = "slider-container-centre">
                     
-                    {props.statusLoading ?"" : props.statusError ? "" :
+                    {props.statusLoading ?"" : props.statusError ? <p>Oops,something went wrong</p>:
                         props.data.categories.map((data,index) => {
                             if(index < 3){
                                 return (

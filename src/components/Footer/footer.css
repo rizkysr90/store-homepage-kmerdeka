@@ -1,0 +1,12 @@
+.footer-container{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #EE4D2D;
+    margin-top: 2rem;
+}
+.footer-content {
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
